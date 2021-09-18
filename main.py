@@ -14,15 +14,17 @@ By RandomBackpack
 
 """)
 
-height = "1000"
-width = "400"
+preview_image = True
+
+height = "10000"
+width = "4000"
 skin_hash = "c99e2a73aa0cdb54"
 cape_hash = "8a6cc02cc86e43f1"
 slim = ""
 
 skin_hash = input("Enter your skin hash:\n")
 
-slim_input = input("would you like to render your skin in 'Slim' mode? [y/N]\n")
+slim_input = input("Would you like to render your skin in 'Slim' mode? [y/N]\n")
 
 if slim_input == "y":
     slim = "&model=slim"
@@ -39,7 +41,11 @@ base_url = f"https://render.namemc.com/skin/3d/body.png?skin={skin_hash}{cape}{s
 
 response = requests.get(base_url)
 img = Image.open(BytesIO(response.content))
-if cape_input == "y":
+
+if preview_image:
+    img.show()
+
+if cape_input != "n":
     img.save(f"./Renders/{skin_hash}_{cape_hash}.png")
 else:
     img.save(f"./Renders/{skin_hash}.png")
