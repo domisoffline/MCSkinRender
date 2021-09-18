@@ -31,4 +31,4 @@ To start off, let's clone the repository by navigating to our desired location a
 
 ## In The Program
 
-Once you have run the program succesfully, you will be prompted to enter a "Skin Hash". This is a string of text which represents the skin you want to render. To find this string of text, please read the [link](README.md## How To Get A Skin Hash) section.
+Once you have run the program succesfully, you will be prompted to enter a "Skin Hash". This is a string of text which represents the skin you want to render. To find this string of text, please read the <a href="https://github.com/lee-dohm/test-repo/blob/master/other-directory/README.md#section" target="_blank">comment</a> section.
