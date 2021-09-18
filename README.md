@@ -22,3 +22,13 @@ or if your render has no cape:
 `<Skin Hash>.png`
 
 Examples of both of these name formats can be found in the 'Renders' folder when cloning the repository, or downloading a Release.
+
+# Basic Usage
+
+## Setup
+
+To start off, let's clone the repository by navigating to our desired location and running `git clone https://github.com/53z/MCSkinRender`. Assuming you have Python installed, we can then run the program with the command `python3 main.py`.
+
+## In The Program
+
+Once you have run the program succesfully, you will be prompted to enter a "Skin Hash". This is a string of text which represents the skin you want to render. To find this string of text, please read [the "How To Get A Skin Hash" section](## How To Get A Skin Hash).
