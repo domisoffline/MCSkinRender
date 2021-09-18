@@ -32,3 +32,5 @@ To start off, let's clone the repository by navigating to our desired location a
 ## In The Program
 
 Once you have run the program succesfully, you will be prompted to enter a "Skin Hash". This is a string of text which represents the skin you want to render. To find this string of text, please read the <a href="https://github.com/53z/MCSkinRender/blob/master/README.md#how-to-get-a-skin-hash" target="_blank">"How To Get A Skin Hash"</a> section.
+
+You will then be asked if you want the skin to be "Slim" or not. Please enter only 'Y' or 'N' on this prompt. Next to will be asked if you want a cape on this render or not. If you answer 'Y', the skin will be facing backwards, with the cape in shot, shown in <a href="https://github.com/53z/MCSkinRender/blob/master/Renders/b971c91a0e44e615_696b6cc29946b968.png" target="_blank">this preview render</a>, so keep that in mind. On the next question you'll be asked for the Cape Hash. As with the Skin Hash, you can learn how to find your's <a href="https://github.com/53z/MCSkinRender/blob/master/README.md#how-to-get-a-cape-hash" target="_blank">here</a>.
