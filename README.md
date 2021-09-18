@@ -20,3 +20,5 @@ Renders are saved in the 'Renders' folder, which is located in the root director
 or if your render has no cape:
 
 `<Skin Hash>.png`
+
+Examples of both of these name formats can be found in the 'Renders' folder when cloning the repository, or downloading a Release.
