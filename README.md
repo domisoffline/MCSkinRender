@@ -14,3 +14,9 @@ Getting a Cape Hash is done in very much the same way as getting a Skin Hash, bu
 ## How Renders Are Saved
 
 Renders are saved in the 'Renders' folder, which is located in the root directory of the program. If for some reason the Renders folder does not exist, the program will create it upon finishing a succesful render. Renders are named in the following format:
+
+`<Skin Hash>_<Cape Hash>.png`
+
+or if your render has no cape:
+
+`<Skin Hash>.png`
